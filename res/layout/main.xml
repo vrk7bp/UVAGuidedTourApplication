@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/welcometext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to the Guided Tour of the University of Virginia!" 
+        android:gravity="center_horizontal"
+        android:textColor="#ff8c00"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/starttour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/welcometext"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dip"
+        android:text="Start The Guided Tour" 
+        android:onClick="startGuidedTour"/>
+
+    <Button
+        android:id="@+id/manualtour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@id/starttour"
+        android:layout_marginTop="20dip"
+        android:text="Start Manual Tour" />
+    
+    <Button
+        android:id="@+id/exitbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@id/manualtour"
+        android:layout_marginTop="20dip"
+        android:text="Exit"
+        android:onClick="closeSystem" />
+    
+    <ImageView
+        android:id="@+id/rotunda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/uvarotunda"
+        android:baselineAlignBottom="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dip"
+        />
+    
+</LinearLayout>

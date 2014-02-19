@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tourstop2layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/congratsarrival"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Congratulations, you have arrived at the second stop. Here is a bit of the history"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/history2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:text="blah blah history" />
+
+    <Button
+        android:id="@+id/closebuttonstop2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dip"
+        android:text="Continue Tour"
+        android:onClick="closePopup" />
+
+</LinearLayout>

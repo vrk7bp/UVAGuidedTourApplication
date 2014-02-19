@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UVA Guided Tour</string>
+    <string name="tourintro"> Hello, and welcome to THE best guided tour of the University of Virginia!
+         We call it the best because it is more than just the follow-the-tourguide kind of thing, 
+         rather, it is interactive! Here is how it works, we are not going to tell you where 
+         the destinations we have planned for you are. You have to find them yourself! 
+         We will give you clues, however. Use this app to see if you are getting closer
+          (if the screen turns more red), or if you are getting farther (the screen would
+           turn more blue) </string>
+
+</resources>
